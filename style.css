@@ -1,10 +1,3 @@
-<style>
-body 
-		{
-			background-image: url(img/background.gif);
-			background-size: cover;
-		}
-</style>
 
 
 	div.ex
@@ -14,3 +7,59 @@ body
 		border:10px solid gray;
 		margin:0px;
 	}
+body 
+		{
+			background-image: url(background.gif);
+			background-size: cover;
+		}
+
+
+		p.ex1{margin-right: 2cm;}
+		p{color:mediumpurple}
+
+
+.header {
+  background-color: #f1f1f1;
+  padding: 10 px;
+  text-align: center;
+}
+
+
+.leftcolumn {   
+  float: right;
+  width: 75%;
+  height: 800PX;
+  background-color: #ffffff;
+  solid: #FFFFFF;
+  opacity:0.8;
+  valign: top;
+}
+ 
+.rightcolumn {
+  float: left;
+  width: 23%;
+  background-color: #f1f1f1;
+  padding-left: 18px;
+  height: 800PX
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 1000px;
+}
