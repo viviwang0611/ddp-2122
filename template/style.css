@@ -2,10 +2,11 @@
 
 	div.ex
 	{
-		width:220px;
+		width:500px;
 		padding:10px;
 		border:10px solid gray;
 		margin:0px;
+
 	}
 body 
 		{
@@ -28,11 +29,10 @@ body
 .leftcolumn {   
   float: right;
   width: 75%;
-  height: 800PX;
+  height: 900PX;
   background-color: #ffffff;
   solid: #FFFFFF;
   opacity:0.8;
-  valign: top;
 }
  
 .rightcolumn {
@@ -40,7 +40,7 @@ body
   width: 23%;
   background-color: #f1f1f1;
   padding-left: 18px;
-  height: 800PX
+  height: 900PX
 }
 .card {
   background-color: white;
@@ -61,15 +61,11 @@ body
   padding: 20px;
   text-align: center;
   background: #ddd;
-  margin-top: 1000px;
 }
 
-#container {
-    width: 400px;
-    height: 500px;
-    overflow: hidden;
-}
+
 #photo {
+	position:fixed;
     width: 1200px;
     animation: switch 5s ease-out infinite;
 }
@@ -83,9 +79,9 @@ body
         margin-left: 0;
     }
     35%, 60% {
-        margin-left: -400px;
+        margin-left: 200px;
     }
     70%, 100% {
-        margin-left: -800px;
+        margin-left: 400px;
     }
 }
