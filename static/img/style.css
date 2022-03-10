@@ -1,0 +1,87 @@
+
+
+	div.ex
+	{
+		width:500px;
+		padding:10px;
+		border:10px solid gray;
+		margin:0px;
+
+	}
+body 
+		{
+			background-image: url(background.gif);
+			background-size: cover;
+		}
+
+
+		p.ex1{margin-right: 2cm;}
+		p{color:mediumpurple}
+
+
+.header {
+  background-color: #f1f1f1;
+  padding: 10 px;
+  text-align: center;
+}
+
+
+.leftcolumn {   
+  float: right;
+  width: 75%;
+  height: 900PX;
+  background-color: #ffffff;
+  solid: #FFFFFF;
+  opacity:0.8;
+}
+ 
+.rightcolumn {
+  float: left;
+  width: 23%;
+  background-color: #f1f1f1;
+  padding-left: 18px;
+  height: 900PX
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+#photo {
+	position:fixed;
+    width: 1200px;
+    animation: switch 5s ease-out infinite;
+}
+#photo > img {
+    float: right;
+    width: 400px;
+    height: 500px;
+}
+@keyframes switch {
+    0%, 40% {
+        margin-left: 0;
+    }
+    35%, 60% {
+        margin-left: 200px;
+    }
+    70%, 100% {
+        margin-left: 400px;
+    }
+}
